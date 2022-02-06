@@ -4,15 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4EBEB"
-    android:backgroundTint="@color/white"
-    android:foregroundTint="#F4F0F0"
-    tools:context=".Activity2">
+    tools:context=".Accionar">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="32dp"
+        android:text="Accionar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="234dp"
+        android:layout_height="391dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/black"
+        android:foregroundTint="#CDADAD"
+        android:text="Defensa y fortalecimiento de la agencia ciudadana de las niñas y los niños como agentes sociales, políticos y económicos desde la Primera Infancia.  Fundación PANIAMOR parte del reconocimiento de la condición de persona de la niña y el niño, como ciudadanas y ciudadanos en el ahora, que tienen el derecho de vivir bajo los principios de igualdad, respeto recíproco y cultura paz en su familia, centro educativo y comunidad."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="160dp"
-        android:layout_height="443dp"
+        android:layout_width="155dp"
+        android:layout_height="409dp"
         android:background="#FFFFFF"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,34 +79,4 @@
             android:text="nuestro impacto" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="214dp"
-        android:layout_height="309dp"
-        android:background="#FFFFFF"
-        android:drawableTint="@color/black"
-        android:foregroundTint="#CDADAD"
-        android:text="La Fundación PANIAMOR centra su quehacer en el desarrollo y cabildeo de Tecnologías Sociales costo-efectivas para el enfrentamiento de desafíos en el ámbito de su especialidad, identificados como prioritarios para el país en dos ejes fundamentales: la prevención de violencias y exclusión social. "
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.239" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="88dp"
-        android:layout_marginBottom="24dp"
-        android:text="Inicio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
-        app:layout_constraintEnd_toEndOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

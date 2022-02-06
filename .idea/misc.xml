@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_2.xml" value="0.2234375" />
+        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_2.xml" value="0.264" />
+        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_accionar.xml" value="0.2234375" />
+        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_impacto.xml" value="0.2234375" />
         <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_main2.xml" value="0.2234375" />
         <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_main3.xml" value="0.2234375" />
+        <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/activity_organizacion.xml" value="0.2234375" />
         <entry key="..\:/Users/emily/Documents/Movil/S2/Notificaciones/app/src/main/res/layout/content_main.xml" value="0.213768115942029" />
       </map>
     </option>

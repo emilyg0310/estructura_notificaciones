@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Activity2 : AppCompatActivity() {
+class Esencia : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_2)
+        setContentView(R.layout.esencia)
 
         //boton1
         val boton1 = findViewById<Button>(R.id.boton1)
@@ -18,7 +18,7 @@ class Activity2 : AppCompatActivity() {
         }
 
         //boton2
-       val boton2 = findViewById<Button>(R.id.boton2)
+        val boton2 = findViewById<Button>(R.id.boton2)
         boton2.setOnClickListener{
             val pase_vista = Intent(this, Esencia::class.java)
             startActivity(pase_vista)

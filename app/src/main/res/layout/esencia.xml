@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Esencia">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="40dp"
+        android:text="Esencia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="226dp"
+        android:layout_height="434dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/black"
+        android:foregroundTint="#CDADAD"
+        android:text="Fundación PANIAMOR es una organización no gubernamental, sin fines de lucro, sin filiación político-partidista, de carácter técnico y naturaleza preventiva, que trabaja para incorporar la cultura de los derechos de la niñez y la adolescencia en la acción política y social. Con este fin construye alianzas visionarias con el Estado, la empresa privada y otras organizaciones nacionales e internacionales con los que potencia el trabajo conjunto de los distintos sectores de la sociedad."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="157dp"
+        android:layout_height="415dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333">
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicio" />
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nuestra esencia" />
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nuestra organización" />
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nuestro accionar" />
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nuestro impacto" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
